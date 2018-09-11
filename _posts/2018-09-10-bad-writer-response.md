@@ -3,7 +3,7 @@ layout: post
 title: Bad Writer Today, Bad Writer Tomorrow
 ---
 
-Michael Mohammed Ahmad is a great writer. His teaching experience, literary references, and every engaging paragraph of his 14 page article, 'Bad Writer', make that clear. In the article he "seeks to inspire bad writers" that writing is a skill that must be practiced. While I won't dispute that Ahmad has the literary ability necessary to teach these writers, I do wonder if his attitude sabotages the goal.
+Michael Mohammed Ahmad is a great writer. His teaching experience, literary references, and every engaging paragraph of his 14 page article, "Bad Writer", make that clear. In the article he "seeks to inspire bad writers" that writing is a skill that must be practiced. While I won't dispute that Ahmad has the literary ability necessary to teach these writers, I do wonder if his attitude sabotages the goal.
 
 Ahmad details his encounters with bad writers throughout his career. For example, he helps Victor, a long time workshop attendee and "Bad Writer". Victor tried defending his technical writing errors as emulation of James Joyce's style. Ahmad responded aggressively, "Please don't mix up your ignorance with Joyce's brilliance". Victor never came back. I doubt this bad writer was reformed. These quips are great punchlines for stories at a party, but do they ever actually help bad writers grow?
 
