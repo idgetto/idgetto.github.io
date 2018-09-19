@@ -3,7 +3,7 @@ layout: post
 title: Stranger Visions
 ---
 
-![Goldblum](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwidssv4-MXdAhVlT98KHQTOBrAQjRx6BAgBEAU&url=https%3A%2F%2Fjennburke.com%2F2015%2F10%2F16%2Fjust-because-you-can-doesnt-mean-you-should%2F&psig=AOvVaw2d6yaN-4WqvEYkvelPlMoI&ust=1537407903942839)
+![Goldblum](https://jrlburke.files.wordpress.com/2015/10/could-should.jpg?w=640)
 
 When new technology emerges we are eager to put it to use. Sometimes in this quest for progress, we assume that all of these applications are good. We assume that this new tech is scientific, unbiased, and pure. Dewey-Hagborg's work, 'Stranger Visions', tackles this false notion. As the artist explains, the purpose of her work is to put the emerging technology of forensic DNA phenotyping in the public eye. She aims to raise our awareness of the applications of this technology and frighten us into taking a more thoughtful approach to new tech.
 
