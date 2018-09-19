@@ -3,9 +3,9 @@ layout: post
 title: Stranger Visions
 ---
 
-![Goldblum](https://jrlburke.files.wordpress.com/2015/10/could-should.jpg?w=640)
-
 When new technology emerges we are eager to put it to use. Sometimes in this quest for progress, we assume that all of these applications are good. We assume that this new tech is scientific, unbiased, and pure. Dewey-Hagborg's work, 'Stranger Visions', tackles this false notion. As the artist explains, the purpose of her work is to put the emerging technology of forensic DNA phenotyping in the public eye. She aims to raise our awareness of the applications of this technology and frighten us into taking a more thoughtful approach to new tech.
+
+![Goldblum](https://jrlburke.files.wordpress.com/2015/10/could-should.jpg?w=640)
 
 Dewey-Hagborg's work is immediately striking. What's impressive about 'Stranger Visions' is how she's taken portraits, a classic art form, and subverted them. Typically the subject of a portrait must pose for the artist. They are well aware that the artist is depicting them. Instead, the subjects of Dewey-Hagborg's work have no idea their faces are up on a wall. They never consented to this and probably don't even know it happened. In this way the artist inspires fear in her audience and makes them consider how the data they don't know they left behind could be used for any purpose.
 
