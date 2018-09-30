@@ -68,7 +68,7 @@ title: Please Do Not Erase
     }
 
     let image_names = shuffle(Object.keys(words)).slice(-3);
-    for each (var image_name in image_names) {
+    for (var image_name in image_names) {
       $("div.images").append("<img src=\"" + base_url + "img/project1/" + image_name + ".JPG\" />");
     }
 
@@ -82,7 +82,7 @@ title: Please Do Not Erase
   <p>another test</p>
   <div class="images"></div>
   {% for image in site.static_files %}
-    {% if image.path contains 'Ximg/project1' %}
+    {% if image.path contains 'img/project1' %}
       <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
   {% endfor %}
