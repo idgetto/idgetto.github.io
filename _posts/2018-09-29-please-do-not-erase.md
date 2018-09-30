@@ -82,7 +82,7 @@ title: Please Do Not Erase
   <p>another test</p>
   <div class="images"></div>
   {% for image in site.static_files %}
-    {% if image.path contains 'img/project1' %}
+    {% if image.path contains 'Ximg/project1' %}
       <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
     {% endif %}
   {% endfor %}
