@@ -11,11 +11,13 @@ title: Please Do Not Erase
     function googleImage() {
       console.log("googling image")
     }
+
+    $("h1").text("Jquery works")
   </script>
 </head>
 
 <div>
-  <h1>Test 2</h1>
+  <h1>Test 3</h1>
 
   {% for image in site.static_files %}
     {% if image.path contains 'img/project1' %}
