@@ -65,8 +65,8 @@ title: Please Do Not Erase
 
     function googleLink(terms) {
       var link = "https://www.google.com/search?query="
-      for (var term in terms) {
-        link = link + term + "+"
+      for (var index in terms) {
+        link = link + terms[index] + "+"
       }
       return link;
     }
@@ -77,6 +77,7 @@ title: Please Do Not Erase
       for (var index in image_names) {
         let image_name = image_names[index]
         let terms = shuffle(words[image_name]).slice(-3);
+        console.log("terms: " + terms);
         let href = googleLink(terms);
         $("div.images").append("<a href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
       }
