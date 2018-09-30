@@ -68,7 +68,7 @@ title: Please Do Not Erase
       for (var term in terms) {
         link = link + term + "+"
       }
-      return base
+      return link;
     }
 
     $(document).ready(function() {
