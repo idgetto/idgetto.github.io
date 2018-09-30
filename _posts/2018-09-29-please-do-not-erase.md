@@ -67,10 +67,12 @@ title: Please Do Not Erase
       return a;
     }
 
-    let image_names = shuffle(Object.keys(words)).slice(-3);
-    for (var index in image_names) {
-      $("div.images").append("<img src=\"/assets/img/project1/" + image_names[index] + ".JPG\" \/>");
-    }
+    $(document).read(function() {
+      let image_names = shuffle(Object.keys(words)).slice(-3);
+      for (var index in image_names) {
+        $("div.images").append("<img src=\"/assets/img/project1/" + image_names[index] + ".JPG\" \/>");
+      }
+    });
 
     $("h1").text("Jquery works");
     $("p").text("swap");
