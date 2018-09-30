@@ -71,7 +71,6 @@ title: Please Do Not Erase
       let image_names = shuffle(Object.keys(words)).slice(-3);
       console.log(image_names);
       for (var index in image_names) {
-        console.log(image_name);
         $("div.images").append("<img src=\"/assets/img/project1/" + image_names[index] + ".JPG\" \/>");
       }
     });
