@@ -69,7 +69,7 @@ title: Please Do Not Erase
 
     let image_names = shuffle(Object.keys(words)).slice(-3);
     for (var image_name in image_names) {
-      $("div.images").append("<img src=\"" + base_url + "img/project1/" + image_name + ".JPG\" />");
+      $("div.images").append("<img src=\"/assets/img/project1/" + image_name + ".JPG\" />");
     }
 
     $("h1").text("Jquery works");
