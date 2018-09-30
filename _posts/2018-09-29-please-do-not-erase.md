@@ -75,7 +75,7 @@ title: Please Do Not Erase
         let terms = shuffle(words[image_name]).slice(-3);
         console.log("terms: " + terms);
         let href = googleLink(terms);
-        $("div.images").append("<a href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
+        $("div.images").append("<a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
         $("div.images").append("<p>" + terms.join(", ") + "<\/p>");
       }
     });
