@@ -55,12 +55,6 @@ title: Please Do Not Erase
     "IMG_2203": [ "OCU", "motor", "world", "sense", "process", "rudder", "change objectives", "thing to do", "arbitrate", "prioritize" ]
   };
 
-    function googleImage(image_name) {
-      console.log(image_name);
-      let selected_words = shuffle(words[image_name]).slice(-3);
-      console.log(selected_words);
-    }
-
     function shuffle(a) {
       for (let i = a.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
@@ -81,10 +75,10 @@ title: Please Do Not Erase
       let image_names = shuffle(Object.keys(words)).slice(-3);
       console.log(image_names);
       for (var index in image_names) {
-        let func = "googleImage(" + image_names[index] + ")"
+        let image_name = image_names[index]
         let terms = shuffle(words[image_name]).slice(-3);
         let href = googleLink(terms);
-        $("div.images").append("<img src=\"/assets/img/project1/" + image_names[index] + ".JPG\" href=\"" + href + "\" \/></br>");
+        $("div.images").append("<img src=\"/assets/img/project1/" + image_name + ".JPG\" href=\"" + href + "\" \/></br>");
       }
     });
 
