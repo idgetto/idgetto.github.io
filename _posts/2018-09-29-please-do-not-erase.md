@@ -15,7 +15,7 @@ title: Please Do Not Erase
 </head>
 
 <div>
-  <h1>Test</h1>
+  <h1>Test 2</h1>
 
   {% for image in site.static_files %}
     <p>image.path</p>
