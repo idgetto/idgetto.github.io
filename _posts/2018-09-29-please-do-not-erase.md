@@ -64,7 +64,7 @@ title: Please Do Not Erase
     }
 
     function googleLink(terms) {
-      return "https://www.google.com/search?query=" + terms.join("+") + "&btnl";
+      return "https://www.google.com/search?q=" + terms.join("+") + "&btnI";
     }
 
     $(document).ready(function() {
