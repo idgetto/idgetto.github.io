@@ -64,11 +64,7 @@ title: Please Do Not Erase
     }
 
     function googleLink(terms) {
-      var link = "https://www.google.com/search?query="
-      for (var index in terms) {
-        link = link + terms[index] + "+"
-      }
-      return link;
+      return "https://www.google.com/search?query=" + terms.join("+") + "&btnl";
     }
 
     $(document).ready(function() {
