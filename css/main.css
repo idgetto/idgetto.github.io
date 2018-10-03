@@ -784,6 +784,18 @@ td.gutter {
 }
 
 div.bordered {
-    border: 2px solid grey;
-    border-radius: 5px;
+    border: 3px solid grey;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: monospace;
+}
+
+div.bordered > img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+mark {
+  background-color: "yellow";
 }

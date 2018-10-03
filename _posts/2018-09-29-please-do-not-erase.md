@@ -68,14 +68,22 @@ title: Please Do Not Erase
     }
 
     $(document).ready(function() {
-      let image_names = shuffle(Object.keys(words)).slice(-3);
+      let image_names = shuffle(Object.keys(words)).slice(-5);
       console.log(image_names);
       for (var index in image_names) {
         let image_name = image_names[index]
         let terms = shuffle(words[image_name]).slice(-3);
         console.log("terms: " + terms);
         let href = googleLink(terms);
-        var element = "<div class=\"bordered\"> <a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br> <p>" + terms.join(", ") + "<\/p> <\/div>";
+
+        var text = "";
+        for (var iterm in terms) {
+          text += "<mark>"
+          text += terms[iterm];
+          text += "<\/mark>, "
+        }
+
+        var element = "<div class=\"bordered\"> <a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br> <p>" + text + "<\/p> <\/div>";
         $("div.images").append(element);
         // $("div.images").append("<a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
         // $("div.images").append("<p>" + terms.join(", ") + "<\/p>");
