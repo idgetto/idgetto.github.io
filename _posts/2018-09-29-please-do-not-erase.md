@@ -89,7 +89,7 @@ title: Please Do Not Erase
 </head>
 
 <div>
-  <a href="/2018-10-1-please-do-not-erase-writeup">
+  <a href="/2018-10-01-please-do-not-erase-writeup">
     <p>Writeup</p>
   </a>
 </div>

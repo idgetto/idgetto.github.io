@@ -3,10 +3,7 @@ layout: post
 title: Please Do Not Erase Writeup
 ---
 
-Inspiration:
-- Stranger Visions
-
-The inspiration for my web page, [Please Do Not Erase](/2018-9-29-please-do-not-erase), comes from a work by Heather Dewey-Hagborg. Her piece, [Stranger Visions](https://deweyhagborg.com/projects/stranger-visions), examines the objects that people leave behind on a day to day basis. By collecting gum, cigarette butts, and hair she attempts to obtain information about who left them behind. She extracted DNA from each of the samples and then generates 3d printed portaits of the individuals. She presents these striking life-size portraits along with the objects that help produce them.
+The inspiration for my web page, [Please Do Not Erase](/2018-09-29-please-do-not-erase), comes from a work by Heather Dewey-Hagborg. Her piece, [Stranger Visions](https://deweyhagborg.com/projects/stranger-visions), examines the objects that people leave behind on a day to day basis. By collecting gum, cigarette butts, and hair she attempts to obtain information about who left them behind. She extracted DNA from each of the samples and then generates 3d printed portaits of the individuals. She presents these striking life-size portraits along with the objects that help produce them.
 
 Her work encourages us to think about what data we leave behind without thinking. Wether it be gum on the street, or our birth date on the web, we ought to be more thoughtful about what we share. In some instances we can't avoid leaking this presonal information everywhere we go. Physically we leave hair and skin cells behind. It seems like the only way to prevent this is to wear a hazmat suit whenever we go out. On the web we face similar challenges. Privacy has become difficult to preserve withough resorting to extreme measures.
 
