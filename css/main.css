@@ -791,11 +791,11 @@ div.bordered {
     font-family: monospace;
 }
 
-div.bordered > img {
+img {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
 mark {
-  background-color: "yellow";
+  background-color: "#ffef9e";
 }
