@@ -796,6 +796,6 @@ img {
     border-top-right-radius: 25px;
 }
 
-mark {
+mark.yellow {
   background-color: "#ffef9e";
 }
