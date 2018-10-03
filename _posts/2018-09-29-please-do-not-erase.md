@@ -75,19 +75,16 @@ title: Please Do Not Erase
         let terms = shuffle(words[image_name]).slice(-3);
         console.log("terms: " + terms);
         let href = googleLink(terms);
-        $("div.images").append("<a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
-        $("div.images").append("<p>" + terms.join(", ") + "<\/p>");
+        var element = "<div class=\"bordered\"> <a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br> <p>" + terms.join(", ") + "<\/p> <\/div>";
+        $("div.images").append(element);
+        // $("div.images").append("<a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
+        // $("div.images").append("<p>" + terms.join(", ") + "<\/p>");
       }
     });
-
-    $("h1").text("Jquery works");
-    $("p").text("swap");
   </script>
 </head>
 
 <div>
-  <h1>Test 3</h1>
-  <p>another test</p>
   <div class="images"></div>
   {% for image in site.static_files %}
     {% if image.path contains 'Ximg/project1' %}
