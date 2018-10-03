@@ -89,6 +89,12 @@ title: Please Do Not Erase
 </head>
 
 <div>
+  <a href="/2018-10-1-please-do-not-erase-writeup">
+    <p>Writeup</p>
+  </a>
+</div>
+
+<div>
   <div class="images"></div>
   {% for image in site.static_files %}
     {% if image.path contains 'Ximg/project1' %}
