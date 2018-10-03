@@ -44,7 +44,7 @@ title: Please Do Not Erase
     "IMG_2187": [ "make", "models", "simple", "possible", "simpler", "but", "einstein", "matthew" ],
     "IMG_2188": [ "click", "beetle", "resting", "position", "triggered by", "take off", "poised", "peg" ],
     "IMG_2190": [ "teaming", "success", "hi", "five", "hand" ],
-    "IMG_2191": [ "enable review", "graphics", "regedit", "search", "current user", "nv40", "dword", "workgarounds", "30008", "pray", "cool" ],
+    "IMG_2191": [ "enable review", "graphics", "regedit", "search", "current user", "nv40", "dword", "workarounds", "30008", "pray", "cool" ],
     "IMG_2192": [ "phoenix", "flies", "anytime", "never", "enough time" ],
     "IMG_2196": [ "let", "ninja", "know", "need", "extra", "components", "fishing wine", "etc" ],
     "IMG_2198": [ "for", "the", "laser", "cutter", "people" ],
@@ -69,11 +69,9 @@ title: Please Do Not Erase
 
     $(document).ready(function() {
       let image_names = shuffle(Object.keys(words)).slice(-5);
-      console.log(image_names);
       for (var index in image_names) {
         let image_name = image_names[index]
         let terms = shuffle(words[image_name]).slice(-3);
-        console.log("terms: " + terms);
         let href = googleLink(terms);
 
         let highlighted = terms.map(term => "<mark class=\"yellow\">" + term + "<\/mark>");
@@ -81,8 +79,6 @@ title: Please Do Not Erase
 
         var element = "<div class=\"bordered\"> <a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br> <p>" + text + "<\/p> <\/div>";
         $("div.images").append(element);
-        // $("div.images").append("<a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br>");
-        // $("div.images").append("<p>" + terms.join(", ") + "<\/p>");
       }
     });
   </script>
