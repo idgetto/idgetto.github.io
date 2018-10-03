@@ -77,7 +77,7 @@ title: Please Do Not Erase
         let highlighted = terms.map(term => "<mark class=\"yellow\">" + term + "<\/mark>");
         let text = highlighted.join(", ");
 
-        var element = "<div class=\"bordered\"> <a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".JPG\" \/><\/a><\/br> <p>" + text + "<\/p> <\/div>";
+        var element = "<div class=\"bordered\"> <a target=\"_blank\" href=\"" + href + "\"><img src=\"/assets/img/project1/" + image_name + ".png\" \/><\/a><\/br> <p>" + text + "<\/p> <\/div>";
         $("div.images").append(element);
       }
     });
