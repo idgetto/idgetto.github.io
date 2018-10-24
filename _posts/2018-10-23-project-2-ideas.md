@@ -24,4 +24,4 @@ Project Ideas:
 - In place of a website's ads, show the terms and conditions instead.
 - Print out all the terms and conditions we've agreed to display their volume and the amount of legally binding contracts we must uphold.
 - Create a physical network of people and pass secret info as notes.
-- Generate a geographical map of were each website stores its data around the world
+- Generate a geographical map of were each website stores its data around the world.
