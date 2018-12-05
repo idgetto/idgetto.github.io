@@ -5,9 +5,13 @@ title: Project 3 Progress
 
 Last week I presented my first week of progress on my final project. I talked about how automated recommendation systems help us find things that we like, but also change what we like. I wanted to show these receommendation systems in a tangible way to express the idea of making these hidden systems more tangible. As well, it allowed me to "own" my algorithm in a way. My prototypes from last week are shown below. Each one is an 3d printed 8x8 grid. The height of each cell represtents how frequently a particular genre of music is recommended to my by spotify.
 
-<div>
-  <img src="/assets/img/project3/blue.png" style="width:50%">
-  <img src="/assets/img/project3/pink.png" style="width:50%">
+<div class="row">
+  <div class="column">
+    <img src="/assets/img/project3/blue.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/img/project3/pink.png" style="width:100%">
+  </div>
 </div>
 
 The sessions last week helped was very useful for me. It helped me evaluated the good and bad parts of the project I had so far as well as possible directions to take it. Some of hte suggestions for things I should change were:
